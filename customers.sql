@@ -10,6 +10,6 @@ SELECT
 FROM 
     dbo.customers as c  
 LEFT JOIN
-    dbo.geography g  
+    dbo.geography as g  
 ON 
     c.GeographyID = g.GeographyID;  
